@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagarika Games - Premium Queue Experiences</title>
+    <style>
+        body { 
+            font-family: 'Courier New', monospace; 
+            background: #1a1a1a; 
+            color: #00ff00; 
+            margin: 0; 
+            padding: 20px;
+            text-align: center;
+        }
+        .container { 
+            max-width: 800px; 
+            margin: 0 auto; 
+            background: #000; 
+            padding: 30px; 
+            border: 2px solid #00ff00;
+            border-radius: 10px;
+        }
+        .game-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .game-card {
+            background: #111;
+            border: 1px solid #00ff00;
+            padding: 20px;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        .game-card:hover {
+            background: #222;
+            transform: scale(1.05);
+        }
+        .play-button {
+            display: inline-block;
+            background: #00ff00;
+            color: #000;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 10px;
+        }
+        .coming-soon {
+            opacity: 0.5;
+            background: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 SAGARIKA GAMES</h1>
+        <p>Premium Queue Experiences & Digital Frustration Simulators</p>
+        
+        <div class="game-grid">
+            <div class="game-card">
+                <h3>Queue Game</h3>
+                <p>Experience the thrill of waiting! Infinite queues, premium frustration.</p>
+                <a href="/queue" class="play-button">PLAY NOW</a>
+                <p><small>Status: Live & Infinitely Loading</small></p>
+            </div>
+            
+            <div class="game-card coming-soon">
+                <h3>Loading Simulator</h3>
+                <p>Watch progress bars that never complete. Coming Soon!</p>
+                <span class="play-button" style="background: #666;">COMING SOON</span>
+            </div>
+            
+            <div class="game-card coming-soon">
+                <h3>Error 404: Game</h3>
+                <p>A game about games that don't exist. Coming Soon!</p>
+                <span class="play-button" style="background: #666;">COMING SOON</span>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Contact: hello@sagarikagames.com</p>
+            <p><small>© 2025 Sagarika Games - Professional Time Wasters</small></p>
+        </footer>
+    </div>
+</body>
+</html>
