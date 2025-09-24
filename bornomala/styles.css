@@ -445,6 +445,12 @@ p {
   color: var(--color-white);
 }
 
+.tile.partial {
+  background: #9b59b6;
+  border-color: #8e44ad;
+  color: var(--color-white);
+}
+
 .tile.absent {
   background: #8b4513;
   border-color: #654321;
